@@ -1,11 +1,11 @@
-package logic
+package internal
 
 import (
 	"fmt"
 	"golangstudy/entity"
 )
 
-func UserInput() {
+func UserInputEven() {
 	var userInputNumber entity.UserNumber
 
 	fmt.Println("Введите нижнюю границу")

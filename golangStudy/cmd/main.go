@@ -1,9 +1,9 @@
 package main
 
 import (
-	"golangstudy/logic"
+	"golangstudy/internal"
 )
 
 func main() {
-	logic.UserInput()
+	internal.UserChoice()
 }
